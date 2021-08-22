@@ -1,24 +1,33 @@
-# README
+My first basic CRUD project in ruby on rails, done along the course of alura
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Today the system is running on heroku at: https://onlinestorex.herokuapp.com/
 
-Things you may want to cover:
+I am not responsible for the products or departments created in this environment because anyone can access and create!
 
-* Ruby version
+To install locally:
 
-* System dependencies
+1- Download ruby 2.5.1:
 
-* Configuration
+https://www.ruby-lang.org/en/downloads/
 
-* Database creation
+Installation:
 
-* Database initialization
+1- Clone the project repository:
 
-* How to run the test suite
+git clone https://github.com/Castrosbruno/online_store.git
 
-* Services (job queues, cache servers, search engines, etc.)
+2- Enter the root of the cloned project and run the commands below step by step:
 
-* Deployment instructions
+cd online_store
 
-* ...
+3- Install the gems:
+
+bundle install or bundle
+
+4- Run the migrations:
+
+rake db: migrate
+
+5- Start the application:
+
+rails s
